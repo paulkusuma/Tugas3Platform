@@ -35,10 +35,10 @@
     background-color: #030201;
 }
 
-.kontak{
+.kontak {
     width: 100%;
     padding: 100px 0px;
-    background-color: #1d1815;
+    background-color: #0a0a09;
 }
 
 nav {
@@ -176,7 +176,8 @@ h4 {
     text-align: center;
     transition: .4s;
 }
-.sekolah:hover{
+
+.sekolah:hover {
     transform: scale(1.1);
 }
 
@@ -195,4 +196,36 @@ h4 {
     margin-bottom: 25px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.judulKontak {
+    color: white;
+    font-size: 30px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.isiKontak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.kontakPerson{
+    height: 200px;
+    width: 250px;
+    padding: 20px 35px;
+    background-color: palevioletred;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: .4s;
+}
+
+.kontakPerson :hover{
+    transform: translate(0, -10px);
 }
