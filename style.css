@@ -8,6 +8,7 @@
 .start {
     height: 100vh;
     width: 100%;
+    
 }
 
 .parallax {
@@ -223,7 +224,7 @@ h4 {
     position: relative;
     overflow: hidden;
     text-align: center;
-    transition: .4s;
+    transition: .7s;
 }
 
 .kontakPerson :hover{
