@@ -5,16 +5,37 @@
     box-sizing: border-box;
 }
 
-.start{
+.start {
     height: 100vh;
     width: 100%;
-    background-image: url(../Tugas3Platform/Foto/dpEdit.jpg);
-    background-repeat: no-repeat;
-    position: fixed;
-    background-size: cover;
 }
 
-nav{
+.parallax {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.depan {
+    background-image: url(dpEdit.jpg);
+}
+
+.tengah{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #030202;
+    
+}
+
+.riwayatPendidikan{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #030201;
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,36 +44,36 @@ nav{
     padding-right: 8%;
 }
 
-.logoPortofolio{
+.logoPortofolio {
     color: palevioletred;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
 }
 
-.jdl{
+.jdl {
     color: white;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: palevioletred;
     transition: .4s;
 }
 
-.btn{
+.btn {
     background-color: palevioletred;
     color: white;
     text-decoration: none;
@@ -61,32 +82,71 @@ nav ul li a:hover{
     padding: 10px 25px;
     border-radius: 30px;
     transition: .4s;
-    
+
 }
 
-.btn:hover{
+.btn:hover {
     transform: scale(1.2);
 }
 
-.konten{
+.konten {
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
 }
 
-h1{
+h1 {
     color: white;
     margin: 20px 0px 20px;
     font-size: 35px;
 }
 
-h4{
+h4 {
     color: white;
     margin: 20px 0px 20px;
     font-size: 20px;
 }
 
-.nama{
+.nama {
     color: palevioletred;
+}
+
+.isiTengah{
+    width: 600px;
+    
+}
+
+.mainTengah{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainTengah h2{
+    color: palevioletred;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.mainTengah p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.judulRiwayat h3{
+    color: white;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
 }
