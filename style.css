@@ -14,7 +14,7 @@
     width: 100%;
     height: 100vh;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -22,17 +22,23 @@
     background-image: url(dpEdit.jpg);
 }
 
-.tengah{
+.tengah {
     width: 100%;
     padding: 100px 0px;
-    background-color: #030202;
-    
+    background-color: #110e0e;
+
 }
 
-.riwayatPendidikan{
+.riwayatPendidikan {
     width: 100%;
     padding: 100px 0px;
     background-color: #030201;
+}
+
+.kontak{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #1d1815;
 }
 
 nav {
@@ -112,12 +118,12 @@ h4 {
     color: palevioletred;
 }
 
-.isiTengah{
+.isiTengah {
     width: 600px;
-    
+
 }
 
-.mainTengah{
+.mainTengah {
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -126,7 +132,7 @@ h4 {
     justify-content: space-around;
 }
 
-.mainTengah h2{
+.mainTengah h2 {
     color: palevioletred;
     letter-spacing: 2px;
     font-size: 35px;
@@ -134,7 +140,7 @@ h4 {
     text-transform: capitalize;
 }
 
-.mainTengah p{
+.mainTengah p {
     color: white;
     letter-spacing: 1px;
     line-height: 28px;
@@ -142,7 +148,8 @@ h4 {
     margin-bottom: 45px;
     text-align: justify;
 }
-.judulRiwayat h3{
+
+.judulRiwayat h3 {
     color: white;
     font-size: 70px;
     width: 1130px;
@@ -150,14 +157,14 @@ h4 {
     text-align: center;
 }
 
-.isiRiwayat{
+.isiRiwayat {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 300px;
 }
 
-.sekolah{
+.sekolah {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
@@ -167,18 +174,25 @@ h4 {
     position: relative;
     overflow: hidden;
     text-align: center;
+    transition: .4s;
+}
+.sekolah:hover{
+    transform: scale(1.1);
 }
 
-.sekolah i{
+.sekolah i {
     font-size: 50px;
     display: block;
     text-align: center;
     margin: 25px 0px;
     color: palevioletred;
 }
-.sekolah p{
+
+.sekolah p {
     color: palevioletred;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
+    text-decoration: none;
+    font-weight: bold;
 }
